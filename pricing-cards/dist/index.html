@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpack App</title>
+  </head>
+  <body>
+    <!-- container -->
+
+    <div
+      class="flex items-center justify-center min-h-screen text-white bg-slate-800"
+    >
+      <!-- card containers -->
+      <div class="flex flex-col gap-8 md:flex-row">
+        <!-- card -->
+        <div class="w-56 p-2 rounded-xl bg-slate-600">
+          <div class="text-center rounded-xl bg-slate-800">
+            <p class="py-8">BASIC</p>
+            <p class="pt-10 font-serif text-4xl uppercase">100GB</p>
+            <p>$1.99/Month</p>
+            <button
+              class="px-8 py-2 mt-4 mb-12 duration-200 border-2 rounded-lg border-violet-500 hover:border-violet-700 hover:bg-violet-700"
+            >
+              Purchase
+            </button>
+            <hr class="h-px border-0 bg-slate-600" />
+            <div class="py-8 text-xs leading-5 tracking-wide text-center">
+              <p>&#10003; 100 GB of storage</p>
+              <p>&#10003; Option to ad members</p>
+              <p>&#10003; Extra member benefits</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-56 p-2 rounded-xl bg-violet-500">
+          <div class="text-center rounded-xl bg-slate-800">
+            <p class="py-8">STANDARD</p>
+            <p class="pt-10 font-serif text-4xl uppercase">200GB</p>
+            <p>$3.99/Month</p>
+            <button class="px-8 py-2 mt-4 mb-12 rounded-lg bg-violet-500">
+              Purchase
+            </button>
+            <hr class="h-px border-0 bg-slate-600" />
+            <div class="py-8 text-xs leading-5 tracking-wide text-center">
+              <p>&#10003; 200 GB of storage</p>
+              <p>&#10003; Option to ad members</p>
+              <p>&#10003; Extra member benefits</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-56 p-2 rounded-xl bg-slate-600">
+          <div class="text-center rounded-xl bg-slate-800">
+            <p class="py-8">PREMIUM</p>
+            <p class="pt-10 font-serif text-4xl uppercase">2 TB</p>
+            <p>$8.99/Month</p>
+            <button
+              class="px-8 py-2 mt-4 mb-12 duration-200 border-2 rounded-lg border-violet-500 hover:border-violet-700 hover:bg-violet-700"
+            >
+              Purchase
+            </button>
+            <hr class="h-px border-0 bg-slate-600" />
+            <div class="py-8 text-xs leading-5 tracking-wide text-center">
+              <p>&#10003; 2 TB of storage</p>
+              <p>&#10003; Option to ad members</p>
+              <p>&#10003; Extra member benefits</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpack App</title>
+  </head>
+  <body>
+    <!-- background container -->
+    <div
+      class="flex items-center justify-center h-screen font-serif bg-zinc-700"
+    >
+      <!-- card -->
+      <div class="p-4 rounded-2xl bg-zinc-800">
+        <div class="flex flex-col rounded-md md:flex-row">
+          <img
+            src="/images/image.jpg"
+            alt="email"
+            class="w-full duration-200 rounded-xl h-80 md:h-64 md:w-5/12 hover:scale-105 hover:rounded-xl md:rounded-l-xl md:rounded-r-none"
+          />
+          <!-- content -->
+          <div class="px-2 py-4 text-center md:p-6 md:mr-7 md:text-left">
+            <h1 class="text-xl font-semibold text-white md:text-xl">
+              Get diet and fitness tips in your inbox
+            </h1>
+            <p class="max-w-xs my-4 text-xs tracking-wide text-white">
+              Eat better and exercise better. Sign up for the Diet&Fitness
+              newsletter.
+            </p>
+            <div
+              class="flex flex-col mt-2 space-y-4 md:space-y-0 md:space-x-3 md:flex-row"
+            >
+              <input
+                class="px-2 py-4 text-xs text-center text-white border md:text-left md:mr-4 bg-zinc-800 border-zinc-600 placeholder:text-xs md:w-10/12 md:placeholder:text-left focus:outline-none"
+                type="text"
+                name=""
+                id=""
+                placeholder="Enter your email address"
+              />
+              <button
+                class="px-4 py-2 text-xs transition rounded-md md:m-0 bg-lime-400 hover:bg-lime-700 hover:text-white"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
